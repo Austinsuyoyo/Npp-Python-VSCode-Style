@@ -1,0 +1,23 @@
+<Language name="python" ext="py pyw" commentLine="#" tabSettings="132">
+	<Keywords name="instre1">True None and class def False in is lambda not or</Keywords>
+	<Keywords name="instre2">as assert async await break  continue  del elif else except finally for from global if import nonlocal pass raise return try while with yield</Keywords>
+	<Keywords name="instre3">exec print</Keywords>
+</Language>
+<LexerType name="python" desc="Python" ext="">
+	<WordsStyle name="DEFAULT" styleID="0" fgColor="C8C8C8" bgColor="1E1E1E" fontName="" fontStyle="0" fontSize="" />
+	<WordsStyle name="COMMENTLINE" styleID="1" fgColor="6A9955" bgColor="1E1E1E" fontName="" fontStyle="0" fontSize="" />
+	<WordsStyle name="NUMBER" styleID="2" fgColor="B5CEA8" bgColor="1E1E1E" fontName="" fontStyle="0" fontSize="" />
+	<WordsStyle name="STRING" styleID="3" fgColor="CE9178" bgColor="1E1E1E" fontName="" fontStyle="0" fontSize="" />
+	<WordsStyle name="CHARACTER" styleID="4" fgColor="CE9178" bgColor="1E1E1E" fontName="" fontStyle="0" fontSize="" />
+	<WordsStyle name="KEYWORDS" styleID="5" fgColor="569CD6" bgColor="1E1E1E" fontName="" fontStyle="0" fontSize="" keywordClass="instre1" />
+	<WordsStyle name="TRIPLE" styleID="6" fgColor="C8C8C8" bgColor="1E1E1E" fontName="" fontStyle="0" fontSize="" />
+	<WordsStyle name="TRIPLEDOUBLE" styleID="7" fgColor="C8C8C8" bgColor="1E1E1E" fontName="" fontStyle="0" fontSize="" />
+	<WordsStyle name="CLASSNAME" styleID="8" fgColor="4BC1A7" bgColor="1E1E1E" fontName="" fontStyle="0" fontSize="" />
+	<WordsStyle name="DEFNAME" styleID="9" fgColor="DCDCAA" bgColor="1E1E1E" fontName="" fontStyle="0" fontSize="" />
+	<WordsStyle name="OPERATOR" styleID="10" fgColor="FFFFFF" bgColor="1E1E1E" fontName="" fontStyle="0" fontSize="" />
+	<WordsStyle name="IDENTIFIER" styleID="11" fgColor="FFFFFF" bgColor="1E1E1E" fontName="" fontStyle="0" fontSize="" />
+	<WordsStyle name="COMMENTBLOCK" styleID="12" fgColor="6A9955" bgColor="1E1E1E" fontName="" fontStyle="0" fontSize="" />
+	<WordsStyle name="STRINGEOL" styleID="13" fgColor="D69D85" bgColor="1E1E1E" fontName="" fontStyle="0" fontSize="" />
+	<WordsStyle name="KEYWORDS2" styleID="14" fgColor="C586C0" bgColor="1E1E1E" fontName="" fontStyle="0" fontSize="" keywordClass="instre2" />
+	<WordsStyle name="KEYWORDS3" styleID="1001" fgColor="DCDCAA" bgColor="1E1E1E" fontName="" fontStyle="0" fontSize="" keywordClass="instre3" />
+</LexerType>
